@@ -17,18 +17,6 @@ The web app also displays visualizations of the data.
  - flask
  - sqlalchemy
  
- # Python Scripts 
-- `process_data.py `
-- `train_classifier.py`
-
-These Python scripts should be able to run with additional arguments specifying the files used for the data and model.
-
-      python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
-      python train_classifier.py ../data/DisasterResponse.db classifier.pkl
-
-Running the Web App
-
-      python run.py
 
  # Flask App
   The file structure of the project
@@ -50,6 +38,20 @@ Running the Web App
          |- classifier.pkl  # saved model 
 
          - README.md
+         
+ # Python Scripts 
+- `process_data.py `
+- `train_classifier.py`
+
+These Python scripts should be able to run with additional arguments specifying the files used for the data and model.
+
+      python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
+      python train_classifier.py ../data/DisasterResponse.db classifier.pkl
+
+Running the Web App
+
+      python run.py
+      
 # Screenshots 
 
 ![Visulas](https://raw.githubusercontent.com/mahajye90/Disaster-Response-Pipelines/main/FireShot%20Capture%20003%20-%20Disasters%20-%20view6914b2f4-3001.udacity-student-workspaces.com.png)
